@@ -37,7 +37,7 @@ namespace DiceBot
             this.Currency = "btc";
             register = false;
             SiteURL = "https://www.crypto.games?i=KaSwpL1Bky";
-            BetURL = "https://www.crypto.games/fair.aspx?coin=BTC&type=3&id=";
+            BetURL = "https://crypto.games/dice/";
             Tip = false;
             Name = "CryptoGames";
             
