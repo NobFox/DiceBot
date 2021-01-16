@@ -21,7 +21,7 @@ namespace DiceBot
         HttpClient Client;// = new HttpClient { BaseAddress = new Uri("https://api.primedice.com/api/") };
         HttpClientHandler ClientHandlr;
         
-        public static string[] sCurrencies = new string[] { "BTC", "Doge", "ETH", "DASH","GAS", "Bch", "STRAT", "PLAY", "LTC","XMR","ETC" };
+        public static string[] sCurrencies = new string[] { "BTC", "Doge", "ETH", "DASH","GAS", "Bch", "PLAY", "LTC","XMR","ETC" };
         public cryptogames(cDiceBot Parent)
         {
             _PasswordText = "API Key: ";
@@ -31,7 +31,7 @@ namespace DiceBot
             AutoLogin = true;
             AutoWithdraw = false;
             ChangeSeed = false;
-            edge = 0.8m;
+            edge = 1.0m;
             maxRoll = 99.999m;
             this.Currencies = sCurrencies;
             this.Currency = "btc";
